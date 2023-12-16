@@ -1,0 +1,1318 @@
+{
+	"info": {
+		"_postman_id": "817a4a3c-565a-41e2-b917-561aab10ea5f",
+		"name": "Aliafy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23942854"
+	},
+	"item": [
+		{
+			"name": "Home Page",
+			"item": [
+				{
+					"name": "Add Section One",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"da\",\r\n    \"description\":\"adsa\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-one",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-one"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Section One",
+					"request": {
+						"auth": {
+							"type": "basic"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-one",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-one"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Section Two",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"da\",\r\n    \"description\":\"adsa\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-two",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-two"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Section Two",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-two",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-two"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Section Three",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/MTM/OneDrive/Pictures/Screenshots/Screenshot 2023-05-05 143657.png"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/MTM/OneDrive/Pictures/Screenshots/Screenshot 2023-03-22 224835.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-three",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-three"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Section Three",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-three",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-three"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Section Three Img",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/MTM/OneDrive/Pictures/Screenshots/four.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-three/image",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-three",
+								"image"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Image From Section three",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"imageName\":\"http://localhost:1812/section-three/section-three-e85e0f16-1ad9-497f-8279-3142630ff7a8.png\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-three/image",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-three",
+								"image"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Section Four",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "mainTitle",
+									"value": "sasd",
+									"type": "text"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/MTM/OneDrive/Pictures/Screenshots/3Screen.png",
+									"disabled": true
+								},
+								{
+									"key": "sections[0][title]",
+									"value": "dasdas",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "sections[0][description]",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-four",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-four"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add To Section Four",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "dasdas",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "dasd",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/MTM/OneDrive/Pictures/Screenshots/Screenshot 2023-03-22 224835.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-four/one",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-four",
+								"one"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete From Section Four",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-four/one/655b2e4cd3765b579eafa0f6",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-four",
+								"one",
+								"655b2e4cd3765b579eafa0f6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Section Four",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-four",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-four"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Section Five",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "mainTitle",
+									"value": "dasdsad",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/MTM/OneDrive/Pictures/Screenshots/cPanel.png"
+								},
+								{
+									"key": "sections[0][title]",
+									"value": "5sda",
+									"type": "text"
+								},
+								{
+									"key": "sections[0][description]",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-five",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-five"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add To Section Five",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"dasdas\",\r\n    \"description\":\"dasdas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-five/one",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-five",
+								"one"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete From Section Four",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-five/one/655b33efc32992bdd2c29cac",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-five",
+								"one",
+								"655b33efc32992bdd2c29cac"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Section Five",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-five",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-five"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Section Six",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "dadasdsadsa",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/MTM/OneDrive/Pictures/Screenshots/err3.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-six",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-six"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Section Six",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page/section-six",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page",
+								"section-six"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Home Page",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/v1/home-page",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"home-page"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"admin\",\r\n    \"email\":\"admin@admin.com\",\r\n    \"password\":\"admin@123456\",\r\n    \"role\":\"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/auth/signup",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.environment.set(\"JWT\", pm.response.json().token);\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"admin@admin.com\",\r\n    \"password\":\"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/api/v1/auth/login",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Nos Expertises",
+			"item": [
+				{
+					"name": "Section One",
+					"item": [
+						{
+							"name": "Add Section One",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title",
+											"value": "dasdsad",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{URL}}/api/v1/section-one",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"section-one"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Section One",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/v1/section-one",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"section-one"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Section One",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PATCH",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/v1/section-one/655cd8472c2b5c404b11b8e4",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"section-one",
+										"655cd8472c2b5c404b11b8e4"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Section One",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/v1/section-one/655cdb9f8a4ab28e519e89b8",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"section-one",
+										"655cdb9f8a4ab28e519e89b8"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Specific Section One",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/v1/section-one/655cdba28a4ab28e519e89bc",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"section-one",
+										"655cdba28a4ab28e519e89bc"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Section Two",
+					"item": [
+						{
+							"name": "Add Section Two",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"date\":2563,\r\n    \"description\":\"asdsadsad\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/api/v1/section-two",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"section-two"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Section One",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/v1/section-two",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"section-two"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Section One",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PATCH",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/v1/section-two/655cd8472c2b5c404b11b8e4",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"section-two",
+										"655cd8472c2b5c404b11b8e4"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Section One",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/v1/section-two/655cdb9f8a4ab28e519e89b8",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"section-two",
+										"655cdb9f8a4ab28e519e89b8"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Specific Section One",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/v1/section-two/655cdba28a4ab28e519e89bc",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"section-two",
+										"655cdba28a4ab28e519e89bc"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Section Three",
+					"item": [
+						{
+							"name": "Section Three",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/v1/experience-page/section-one",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"experience-page",
+										"section-one"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Section Three",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "image",
+											"type": "file",
+											"src": "/C:/Users/MTM/OneDrive/Pictures/Screenshots/Screenshot 2023-03-22 224835.png"
+										},
+										{
+											"key": "description",
+											"value": "sadsadas",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{URL}}/api/v1/experience-page/section-one",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"experience-page",
+										"section-one"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Section Four",
+					"item": [
+						{
+							"name": "Section Four",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/v1/experience-page/section-two",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"experience-page",
+										"section-two"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Section Four",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "image",
+											"type": "file",
+											"src": "/C:/Users/MTM/OneDrive/Pictures/Screenshots/screerDolly.png"
+										},
+										{
+											"key": "description",
+											"value": "dasdasd",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{URL}}/api/v1/experience-page/section-two",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"experience-page",
+										"section-two"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Get Section Three and Four",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{JWT}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/v1/experience-page",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"experience-page"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
